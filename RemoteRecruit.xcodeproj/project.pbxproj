@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B385FD012FD40FB300138A68 /* RemoteJobs.json in Resources */ = {isa = PBXBuildFile; fileRef = B385FD002FD40FB300138A68 /* RemoteJobs.json */; };
+		B385FD0F2FD41E9500138A68 /* RemoteJobDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = B385FD0E2FD41E9500138A68 /* RemoteJobDetails.json */; };
+		B385FD142FD454C000138A68 /* RemoteJobDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385FD132FD454C000138A68 /* RemoteJobDetailModel.swift */; };
+		B393B0D12FD5C919008316A7 /* EmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B393B0D02FD5C919008316A7 /* EmptyStateView.xib */; };
+		B393B0D92FD5D8BA008316A7 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B0D82FD5D8BA008316A7 /* ContentLoader.swift */; };
+		B393B0DE2FD5D8CD008316A7 /* ContentLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B393B0DD2FD5D8CD008316A7 /* ContentLoader.xib */; };
+		B398A6312FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398A6302FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift */; };
+		B398A6362FD6A00700CA9484 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398A6352FD6A00700CA9484 /* AppContainer.swift */; };
+		B398A63C2FD6A63C00CA9484 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398A63B2FD6A63C00CA9484 /* AppCoordinator.swift */; };
+		B39DCB8A2FD4A32E0021BF85 /* RemoteJobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DCB892FD4A32E0021BF85 /* RemoteJobDetailViewController.swift */; };
+		B39E167D2FD5AC3A007D8D8A /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E167C2FD5AC3A007D8D8A /* EmptyStateView.swift */; };
 		B3CDA1A32FD324B400354E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1A22FD324B400354E4F /* AppDelegate.swift */; };
 		B3CDA1A52FD324B400354E4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1A42FD324B400354E4F /* SceneDelegate.swift */; };
-		B3CDA1A72FD324B400354E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1A62FD324B400354E4F /* ViewController.swift */; };
-		B3CDA1AA2FD324B400354E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CDA1A82FD324B400354E4F /* Main.storyboard */; };
+		B3CDA1A72FD324B400354E4F /* RemoteJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1A62FD324B400354E4F /* RemoteJobsViewController.swift */; };
+		B3CDA1AA2FD324B400354E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CDA1A82FD324B400354E4F /* Main.storyboard */; settings = {ASSET_TAGS = (jobSearhBar, ); }; };
 		B3CDA1AC2FD324BF00354E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CDA1AB2FD324BF00354E4F /* Assets.xcassets */; };
 		B3CDA1AF2FD324BF00354E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CDA1AD2FD324BF00354E4F /* LaunchScreen.storyboard */; };
 		B3CDA1BA2FD324BF00354E4F /* RemoteRecruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1B92FD324BF00354E4F /* RemoteRecruitTests.swift */; };
 		B3CDA1C52FD324C000354E4F /* RemoteRecruitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1C42FD324C000354E4F /* RemoteRecruitUITests.swift */; };
+		B3CDA1E22FD32A6100354E4F /* RemoteJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3CDA1E02FD32A6000354E4F /* RemoteJobCell.xib */; };
+		B3CDA1E32FD32A6100354E4F /* RemoteJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1E12FD32A6000354E4F /* RemoteJobCell.swift */; };
+		B3CDA1EB2FD32DB000354E4F /* RemoteJobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1EA2FD32DAF00354E4F /* RemoteJobViewModel.swift */; };
+		B3CDA1F02FD332DB00354E4F /* RemoteJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1EF2FD332DB00354E4F /* RemoteJobModel.swift */; };
+		B3CDA1F82FD336A000354E4F /* RemoteJobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1F72FD336A000354E4F /* RemoteJobService.swift */; };
+		B3CDA1FD2FD336AB00354E4F /* FetchJobUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA1FC2FD336AB00354E4F /* FetchJobUseCase.swift */; };
+		B3CDA2022FD336B400354E4F /* RemoteJobRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA2012FD336B400354E4F /* RemoteJobRepository.swift */; };
+		B3CDA2112FD34EDB00354E4F /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA20F2FD34EDB00354E4F /* LocalizedStrings.swift */; };
+		B3CDA2122FD34EDB00354E4F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA2102FD34EDB00354E4F /* Constant.swift */; };
+		B3CDA2172FD34EED00354E4F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDA2162FD34EED00354E4F /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B385FD002FD40FB300138A68 /* RemoteJobs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RemoteJobs.json; sourceTree = "<group>"; };
+		B385FD0E2FD41E9500138A68 /* RemoteJobDetails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RemoteJobDetails.json; sourceTree = "<group>"; };
+		B385FD132FD454C000138A68 /* RemoteJobDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobDetailModel.swift; sourceTree = "<group>"; };
+		B393B0D02FD5C919008316A7 /* EmptyStateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyStateView.xib; sourceTree = "<group>"; };
+		B393B0D82FD5D8BA008316A7 /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
+		B393B0DD2FD5D8CD008316A7 /* ContentLoader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentLoader.xib; sourceTree = "<group>"; };
+		B398A6302FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobDetailViewModel.swift; sourceTree = "<group>"; };
+		B398A6352FD6A00700CA9484 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		B398A63B2FD6A63C00CA9484 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B39DCB892FD4A32E0021BF85 /* RemoteJobDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobDetailViewController.swift; sourceTree = "<group>"; };
+		B39E167C2FD5AC3A007D8D8A /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		B3CDA19F2FD324B400354E4F /* RemoteRecruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteRecruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CDA1A22FD324B400354E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3CDA1A42FD324B400354E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3CDA1A62FD324B400354E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3CDA1A62FD324B400354E4F /* RemoteJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobsViewController.swift; sourceTree = "<group>"; };
 		B3CDA1A92FD324B400354E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3CDA1AB2FD324BF00354E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3CDA1AE2FD324BF00354E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +81,16 @@
 		B3CDA1C02FD324C000354E4F /* RemoteRecruitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteRecruitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CDA1C42FD324C000354E4F /* RemoteRecruitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRecruitUITests.swift; sourceTree = "<group>"; };
 		B3CDA1C62FD324C000354E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CDA1E02FD32A6000354E4F /* RemoteJobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemoteJobCell.xib; sourceTree = "<group>"; };
+		B3CDA1E12FD32A6000354E4F /* RemoteJobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobCell.swift; sourceTree = "<group>"; };
+		B3CDA1EA2FD32DAF00354E4F /* RemoteJobViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobViewModel.swift; sourceTree = "<group>"; };
+		B3CDA1EF2FD332DB00354E4F /* RemoteJobModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobModel.swift; sourceTree = "<group>"; };
+		B3CDA1F72FD336A000354E4F /* RemoteJobService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobService.swift; sourceTree = "<group>"; };
+		B3CDA1FC2FD336AB00354E4F /* FetchJobUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchJobUseCase.swift; sourceTree = "<group>"; };
+		B3CDA2012FD336B400354E4F /* RemoteJobRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobRepository.swift; sourceTree = "<group>"; };
+		B3CDA20F2FD34EDB00354E4F /* LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		B3CDA2102FD34EDB00354E4F /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B3CDA2162FD34EED00354E4F /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +118,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B398A63A2FD6A62400CA9484 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B398A63B2FD6A63C00CA9484 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B39DCB842FD47F480021BF85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B39DCB892FD4A32E0021BF85 /* RemoteJobDetailViewController.swift */,
+				B3CDA1A62FD324B400354E4F /* RemoteJobsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B39DCB852FD47F950021BF85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA1A82FD324B400354E4F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B3CDA1962FD324B400354E4F = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +166,18 @@
 		B3CDA1A12FD324B400354E4F /* RemoteRecruit */ = {
 			isa = PBXGroup;
 			children = (
+				B398A63A2FD6A62400CA9484 /* Coordinator */,
+				B3CDA1F62FD3361600354E4F /* Repositories */,
+				B3CDA1F52FD335FF00354E4F /* UseCase */,
+				B3CDA1F42FD335F500354E4F /* Services */,
+				B3CDA1DA2FD3255900354E4F /* Components */,
+				B3CDA1D92FD3255000354E4F /* Utilities */,
+				B3CDA1D82FD3254000354E4F /* Resources */,
+				B3CDA1D72FD3253400354E4F /* ViewModel */,
+				B3CDA1D62FD3252D00354E4F /* Model */,
+				B3CDA1D52FD3252500354E4F /* Views */,
 				B3CDA1A22FD324B400354E4F /* AppDelegate.swift */,
 				B3CDA1A42FD324B400354E4F /* SceneDelegate.swift */,
-				B3CDA1A62FD324B400354E4F /* ViewController.swift */,
-				B3CDA1A82FD324B400354E4F /* Main.storyboard */,
 				B3CDA1AB2FD324BF00354E4F /* Assets.xcassets */,
 				B3CDA1AD2FD324BF00354E4F /* LaunchScreen.storyboard */,
 				B3CDA1B02FD324BF00354E4F /* Info.plist */,
@@ -126,6 +201,98 @@
 				B3CDA1C62FD324C000354E4F /* Info.plist */,
 			);
 			path = RemoteRecruitUITests;
+			sourceTree = "<group>";
+		};
+		B3CDA1D52FD3252500354E4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B39DCB852FD47F950021BF85 /* View */,
+				B39DCB842FD47F480021BF85 /* Controllers */,
+				B3CDA1DF2FD32A3F00354E4F /* Custom Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3CDA1D62FD3252D00354E4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA1EF2FD332DB00354E4F /* RemoteJobModel.swift */,
+				B385FD132FD454C000138A68 /* RemoteJobDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3CDA1D72FD3253400354E4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA1EA2FD32DAF00354E4F /* RemoteJobViewModel.swift */,
+				B398A6302FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3CDA1D82FD3254000354E4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA2102FD34EDB00354E4F /* Constant.swift */,
+				B3CDA20F2FD34EDB00354E4F /* LocalizedStrings.swift */,
+				B385FD002FD40FB300138A68 /* RemoteJobs.json */,
+				B385FD0E2FD41E9500138A68 /* RemoteJobDetails.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3CDA1D92FD3255000354E4F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA2162FD34EED00354E4F /* NetworkError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B3CDA1DA2FD3255900354E4F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B39E167C2FD5AC3A007D8D8A /* EmptyStateView.swift */,
+				B393B0D02FD5C919008316A7 /* EmptyStateView.xib */,
+				B393B0D82FD5D8BA008316A7 /* ContentLoader.swift */,
+				B393B0DD2FD5D8CD008316A7 /* ContentLoader.xib */,
+				B398A6352FD6A00700CA9484 /* AppContainer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3CDA1DF2FD32A3F00354E4F /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA1E12FD32A6000354E4F /* RemoteJobCell.swift */,
+				B3CDA1E02FD32A6000354E4F /* RemoteJobCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		B3CDA1F42FD335F500354E4F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA1F72FD336A000354E4F /* RemoteJobService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B3CDA1F52FD335FF00354E4F /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA1FC2FD336AB00354E4F /* FetchJobUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B3CDA1F62FD3361600354E4F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDA2012FD336B400354E4F /* RemoteJobRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +357,9 @@
 		B3CDA1972FD324B400354E4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					jobSearhBar,
+				);
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
@@ -234,6 +404,11 @@
 				B3CDA1AF2FD324BF00354E4F /* LaunchScreen.storyboard in Resources */,
 				B3CDA1AC2FD324BF00354E4F /* Assets.xcassets in Resources */,
 				B3CDA1AA2FD324B400354E4F /* Main.storyboard in Resources */,
+				B393B0D12FD5C919008316A7 /* EmptyStateView.xib in Resources */,
+				B393B0DE2FD5D8CD008316A7 /* ContentLoader.xib in Resources */,
+				B385FD012FD40FB300138A68 /* RemoteJobs.json in Resources */,
+				B385FD0F2FD41E9500138A68 /* RemoteJobDetails.json in Resources */,
+				B3CDA1E22FD32A6100354E4F /* RemoteJobCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +433,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CDA1A72FD324B400354E4F /* ViewController.swift in Sources */,
+				B393B0D92FD5D8BA008316A7 /* ContentLoader.swift in Sources */,
+				B3CDA2022FD336B400354E4F /* RemoteJobRepository.swift in Sources */,
+				B39E167D2FD5AC3A007D8D8A /* EmptyStateView.swift in Sources */,
+				B3CDA1F82FD336A000354E4F /* RemoteJobService.swift in Sources */,
+				B3CDA1A72FD324B400354E4F /* RemoteJobsViewController.swift in Sources */,
+				B3CDA1FD2FD336AB00354E4F /* FetchJobUseCase.swift in Sources */,
+				B3CDA2112FD34EDB00354E4F /* LocalizedStrings.swift in Sources */,
+				B3CDA1EB2FD32DB000354E4F /* RemoteJobViewModel.swift in Sources */,
 				B3CDA1A32FD324B400354E4F /* AppDelegate.swift in Sources */,
 				B3CDA1A52FD324B400354E4F /* SceneDelegate.swift in Sources */,
+				B3CDA2122FD34EDB00354E4F /* Constant.swift in Sources */,
+				B398A6362FD6A00700CA9484 /* AppContainer.swift in Sources */,
+				B39DCB8A2FD4A32E0021BF85 /* RemoteJobDetailViewController.swift in Sources */,
+				B3CDA2172FD34EED00354E4F /* NetworkError.swift in Sources */,
+				B3CDA1E32FD32A6100354E4F /* RemoteJobCell.swift in Sources */,
+				B398A63C2FD6A63C00CA9484 /* AppCoordinator.swift in Sources */,
+				B398A6312FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift in Sources */,
+				B3CDA1F02FD332DB00354E4F /* RemoteJobModel.swift in Sources */,
+				B385FD142FD454C000138A68 /* RemoteJobDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

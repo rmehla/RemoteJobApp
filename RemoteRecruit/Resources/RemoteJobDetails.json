@@ -1,0 +1,206 @@
+[
+    {
+        "id": 100,
+        "position" : "Nurse Practitioner",
+        "company": "Northwell Health",
+        "description": "Responsible for managing health problems, conducting physical examinations, diagnosing conditions, prescribing medications, and providing holistic follow-up care within the legal scope of advanced nursing practice",
+        "is_remote": false,
+        "is_hybrid": false,
+        "location": {
+            "streetAddress": "110 East 59th Street",
+            "addressLocality": "New York",
+            "addressRegion": "New York",
+            "postalCode": "10022",
+            "addressCountry": "United States"
+        },
+        "salary_min": "20000",
+        "salary_max": "40000"
+    },
+    {
+        "id": 101,
+        "position": "Cardiology Physician",
+        "company": "Northwell Health",
+        "description": "Diagnose, treat, and manage diseases and conditions of the cardiovascular system. Lead patient-centered care plans, perform or order diagnostic testing, and collaborate with multidisciplinary healthcare teams to improve heart function and patient outcomes.",
+        "is_remote": true,
+        "is_hybrid": true,
+        "location": {
+            "streetAddress": "110 East 59th Street",
+            "addressLocality": "New York",
+            "addressRegion": "New York",
+            "postalCode": "10022",
+            "addressCountry": "United States"
+        },
+        "salary_min": "80000",
+        "salary_max": "120000"
+    },
+    {
+        "id": 102,
+        "position": "Radiology & MRI Technologist",
+        "description": "Operates magnetic resonance imaging (MRI) and radiologic equipment to produce diagnostic cross-sectional images of the human body. Collaborates with radiologists and healthcare professionals to ensure high-quality image production, accurate diagnoses, and optimal patient safety.",
+        "company": "Northwell Health",
+        "is_remote": true,
+        "is_hybrid": true,
+        "location": {
+            "streetAddress": "110 East 59th Street",
+            "addressLocality": "New York",
+            "addressRegion": "New York",
+            "postalCode": "10022",
+            "addressCountry": "United States"
+          },
+        "salary_min": "40000",
+        "salary_max": "60000"
+    },
+    {
+        "id": 103,
+        "position": "Outpatient Senior Care",
+        "description": "Provides direct, patient-centered care and clinical support for high-risk senior populations in an outpatient/clinic setting. Assists registered nurses and physicians with clinical interventions, patient triage, and coordinates care delivery.",
+        "company": "Advent Health",
+        "is_remote": false,
+        "is_hybrid": false,
+        "location": {
+            "streetAddress": "601 E. Rollins St.",
+            "addressLocality": "Orlando",
+            "addressRegion": "Florida",
+            "postalCode": "32904",
+            "addressCountry": "United States"
+          },
+        "salary_min": "20000",
+        "salary_max": "40000"
+    },
+    {
+        "id": 104,
+        "position": "Family Medicine Physician",
+        "description": "We are seeking a compassionate Family Medicine Physician to provide comprehensive, continuous primary care to patients of all ages, from newborns to seniors.",
+        "company": "Advent Health",
+        "is_remote": true,
+        "is_hybrid": true,
+        "location": {
+            "streetAddress": "601 E. Rollins St.",
+            "addressLocality": "Orlando",
+            "addressRegion": "Florida",
+            "postalCode": "32904",
+            "addressCountry": "United States"
+          },
+        "salary_min": "60000",
+        "salary_max": "120000"
+    },
+    {
+        "id": 105,
+        "position": "Ortho Spine Specialist",
+        "description": "We are seeking a highly skilled Orthopedic Spine Specialist to diagnose and treat complex spinal disorders and injuries. The ideal candidate will possess expertise in both surgical and non-surgical modalities, focusing on improving patient mobility and quality of life.",
+        "company": "Advent Health",
+        "is_remote": true,
+        "is_hybrid": true,
+        "location": {
+            "streetAddress": "601 E. Rollins St.",
+            "addressLocality": "Orlando",
+            "addressRegion": "Florida",
+            "postalCode": "32904",
+            "addressCountry": "United States"
+          },
+        "salary_min": "80000",
+        "salary_max": "160000"
+    },
+    {
+        "id": 106,
+        "position": "Vascular Surgeon",
+        "description": "The Vascular Surgeon evaluates, diagnoses, and surgically manages diseases affecting the vascular system, including arteries, veins, and lymphatic vessels. Specializes in both complex open surgeries and minimally invasive endovascular techniques to restore blood flow, prevent strokes, and save limbs.",
+        "company": "Vida Health",
+        "is_remote": true,
+        "is_hybrid": true,
+        "location": {
+            "streetAddress": "100 Montgomery St, Suite 750",
+            "addressLocality": "San Francisco",
+            "addressRegion": "California",
+            "postalCode": "94104",
+            "addressCountry": "United States"
+          },
+        "salary_min": "80000",
+        "salary_max": "120000"
+    },
+    {
+        "id": 107,
+        "position": "Medical Assistants",
+        "description": "Perform a variety of administrative and clinical duties to support physicians and ensure the efficient day-to-day operation of a healthcare facility.",
+        "company": "Vida Health",
+        "is_remote": false,
+        "is_hybrid": false,
+        "location": {
+            "streetAddress": "100 Montgomery St, Suite 750",
+            "addressLocality": "San Francisco",
+            "addressRegion": "California",
+            "postalCode": "94104",
+            "addressCountry": "United States"
+          },
+        "salary_min": "30000",
+        "salary_max": "50000"
+    },
+    {
+        "id": 108,
+        "position": "Pharmacy Technicians",
+        "description": "Assists licensed pharmacists in preparing and dispensing prescription medications, managing inventory, and providing excellent customer service in a retail or hospital pharmacy setting. Ensures safe, accurate, and timely medication distribution.",
+        "company": "Vida Health",
+        "is_remote": false,
+        "is_hybrid": false,
+        "location": {
+            "streetAddress": "100 Montgomery St, Suite 750",
+            "addressLocality": "San Francisco",
+            "addressRegion": "California",
+            "postalCode": "94104",
+            "addressCountry": "United States"
+          },
+        "salary_min": "40000",
+        "salary_max": "600000"
+    },
+    {
+        "id": 109,
+        "position": "Outpatient Personal Assistants",
+        "description": "Responsible for providing comprehensive administrative, scheduling, and logistical support to outpatient healthcare professionals. Acts as a liaison between medical staff and patients, ensuring smooth day-to-day clinic operations and high-quality patient care.",
+        "company": "HCA Healthcare, Inc",
+        "is_remote": false,
+        "is_hybrid": false,
+        "location": {
+            "streetAddress": "One Park Plaza",
+            "addressLocality": "Nashville",
+            "addressRegion": "Tennessee",
+            "postalCode": "37203",
+            "addressCountry": "United States"
+          },
+        "salary_min": "20000",
+        "salary_max": "40000"
+    },
+    {
+        "id": 110,
+        "position": "Cardiology Nurse Practioner",
+        "description": "Highly trained advanced practice registered nurse (APRN) who provides specialized, evidence-based care to patients with cardiovascular diseases in collaboration with cardiologists.",
+        "company": "HCA Healthcare, Inc",
+        "is_remote": false,
+        "is_hybrid": false,
+        "location": {
+            "streetAddress": "One Park Plaza",
+            "addressLocality": "Nashville",
+            "addressRegion": "Tennessee",
+            "postalCode": "37203",
+            "addressCountry": "United States"
+          },
+        "salary_min": "40000",
+        "salary_max": "60000"
+    },
+    {
+        "id": 111,
+        "position": "Dermatology Physicians",
+        "description": "We are seeking an experienced and compassionate Dermatology Physician to join our medical practice. You will be responsible for evaluating, diagnosing, and treating patients with conditions affecting the skin, hair, and nails.",
+        "company": "HCA Healthcare, Inc",
+        "is_remote": true,
+        "is_hybrid": true,
+        "location": {
+            "streetAddress": "One Park Plaza",
+            "addressLocality": "Nashville",
+            "addressRegion": "Tennessee",
+            "postalCode": "37203",
+            "addressCountry": "United States"
+          },
+        "salary_min": "60000",
+        "salary_max": "120000"
+    }
+]

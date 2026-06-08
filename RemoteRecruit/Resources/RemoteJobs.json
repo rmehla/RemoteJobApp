@@ -1,0 +1,98 @@
+[
+    {
+        "id": 100,
+        "position" : "Nurse Practitioner",
+        "company": "Northwell Health",
+        "location": "New York, NY",
+        "salary_min": "20000",
+        "salary_max": "40000"
+    },
+    {
+        "id": 101,
+        "position": "Cardiology Physician",
+        "company": "Northwell Health",
+        "location": "New York, NY",
+        "salary_min": "80000",
+        "salary_max": "120000"
+    },
+    {
+        "id": 102,
+        "position": "Radiology & MRI Technologist",
+        "company": "Northwell Health",
+        "location": "New York, NY",
+        "salary_min": "40000",
+        "salary_max": "60000"
+    },
+    {
+        "id": 103,
+        "position": "Outpatient Senior Care",
+        "company": "Advent Health",
+        "location": "Orlando, FL",
+        "salary_min": "20000",
+        "salary_max": "40000"
+    },
+    {
+        "id": 104,
+        "position": "Family Medicine Physician",
+        "company": "Advent Health",
+        "location": "Orlando, FL",
+        "salary_min": "60000",
+        "salary_max": "120000"
+    },
+    {
+        "id": 105,
+        "position": "Ortho Spine Specialist",
+        "company": "Advent Health",
+        "location": "Orlando, FL",
+        "salary_min": "80000",
+        "salary_max": "160000"
+    },
+    {
+        "id": 106,
+        "position": "Vascular Surgeon",
+        "company": "Vida Health",
+        "location": "San Francisco, CA",
+        "salary_min": "80000",
+        "salary_max": "120000"
+    },
+    {
+        "id": 107,
+        "position": "Medical Assistants",
+        "company": "Vida Health",
+        "location": "San Francisco, CA",
+        "salary_min": "30000",
+        "salary_max": "50000"
+    },
+    {
+        "id": 108,
+        "position": "Pharmacy Technicians",
+        "company": "Vida Health",
+        "location": "San Francisco, CA",
+        "salary_min": "40000",
+        "salary_max": "600000"
+    },
+    {
+        "id": 109,
+        "position": "Outpatient Personal Assistants",
+        "company": "HCA Healthcare, Inc",
+        "location": "Nashville, TN",
+        "salary_min": "20000",
+        "salary_max": "40000"
+    },
+    {
+        "id": 110,
+        "position": "Cardiology Nurse Practioner",
+        "company": "HCA Healthcare, Inc",
+        "location": "Nashville, TN",
+        "salary_min": "40000",
+        "salary_max": "60000"
+    },
+    {
+        "id": 111,
+        "position": "Dermatology Physicians",
+        "company": "HCA Healthcare, Inc",
+        "location": "Nashville, TN",
+        "salary_min": "60000",
+        "salary_max": "120000"
+    }
+]
