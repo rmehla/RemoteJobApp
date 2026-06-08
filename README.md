@@ -14,5 +14,5 @@ Clean and maintainable codebase
 Search Functionality
 
 Users can search jobs by:
-Job Title
+Job Title,
 Company Name
