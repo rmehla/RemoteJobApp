@@ -41,6 +41,7 @@ Search Functionality
 Users can search jobs by:
 Job Title,
 Company Name
+
 filteredJobs = remoteJobs.filter {
     $0.title.localizedCaseInsensitiveContains(searchText) ||
     $0.company.localizedCaseInsensitiveContains(searchText)
