@@ -2,6 +2,21 @@
 
 A modern iOS application that allows users to browse and search remote job opportunities. The app is built with a focus on scalability, maintainability, and testability, following the MVVM architecture pattern principles. It leverages Combine for reactive data binding between the ViewModel and UI.
 
+**Setup Instructions**
+**1. Clone the Repository** 
+**git clone https://github.com/<your-username>/RemoteRecruit.git**
+**cd RemoteRecruit**
+
+**2. Open in Xcode**
+Open **RemoteRecruit.xcodeproj**
+Ensure you are using:
+Xcode 12+
+Swift 5+
+
+**3. Run the App** 
+Select an iOS Simulator (e.g., iPhone 15)
+Press ⌘ + R
+
 **Features**
 Browse remote job listings
 Search jobs by title or company name
