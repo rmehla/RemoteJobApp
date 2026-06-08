@@ -11,8 +11,46 @@ Local JSON parsing support
 Responsive and reusable UI components
 Clean and maintainable codebase
 
+Components
+Model
+
+Represents job data and business entities.
+
+ViewModel
+
+Handles:
+
+Data fetching
+Search filtering
+Business logic
+State management using Combine
+View
+
+Displays UI and subscribes to ViewModel updates.
+
+Technologies Used
+Swift 5
+UIKit
+SwiftUI
+Combine
+MVVM Architecture
+Xcode
+
 Search Functionality
 
 Users can search jobs by:
 Job Title,
 Company Name
+filteredJobs = remoteJobs.filter {
+    $0.title.localizedCaseInsensitiveContains(searchText) ||
+    $0.company.localizedCaseInsensitiveContains(searchText)
+}
+
+Combine Integration
+
+remoteJobModel?.$remoteJobs
+    .receive(on: DispatchQueue.main)
+    .sink { [weak self] jobs in
+        self?.reloadData()
+    }
+    .store(in: &cancellables)
