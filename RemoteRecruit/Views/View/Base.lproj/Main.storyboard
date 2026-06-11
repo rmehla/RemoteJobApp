@@ -30,6 +30,7 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="linkColor"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="topBarView"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="64c-gi-9aW"/>
                                             <constraint firstItem="yJ5-9v-NiX" firstAttribute="centerY" secondItem="hrs-Lu-iMD" secondAttribute="centerY" id="ozr-Dr-KZP"/>
@@ -52,12 +53,14 @@
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="lKr-CA-1Jd"/>
                                         </connections>
                                     </tableView>
-                                    <view hidden="YES" contentMode="scaleToFill" restorationIdentifier="emptyStateView" translatesAutoresizingMaskIntoConstraints="NO" id="Mtr-9T-tow">
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mtr-9T-tow">
                                         <rect key="frame" x="0.0" y="89" width="414" height="685"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="noDataView"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <accessibility key="accessibilityConfiguration" identifier="containerView"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="hrs-Lu-iMD" secondAttribute="trailing" id="0Lg-TL-koL"/>
                                     <constraint firstAttribute="trailing" secondItem="Mtr-9T-tow" secondAttribute="trailing" id="1OI-rQ-1yc"/>
@@ -76,6 +79,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration" identifier="remoteJobsView"/>
                         <constraints>
                             <constraint firstItem="D7B-do-Gd2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2cn-aJ-oyQ"/>
                             <constraint firstItem="D7B-do-Gd2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o7M-xt-nFT"/>
@@ -142,24 +146,28 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="John Doe" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrd-yd-5Kc">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="0.0"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="positionLabel"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John@gmail.com" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCl-Qg-pLm">
                                                 <rect key="frame" x="0.0" y="2" width="404" height="18"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="companyLabel"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9876123450" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gos-Uk-4NV">
                                                 <rect key="frame" x="0.0" y="22" width="404" height="19.5"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="salaryLabel"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cullman" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37v-bV-zmq">
                                                 <rect key="frame" x="0.0" y="43.5" width="404" height="19.5"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="locationLabel"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -167,6 +175,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frances CT Frances CT Frances CT Frances CT Frances CTFrances CT Frances CT Frances CT" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ANT-bC-GvN">
                                                 <rect key="frame" x="0.0" y="65" width="404" height="27"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="jobDescLabel"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -177,9 +186,11 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASQ-aN-hjb">
                                         <rect key="frame" x="0.0" y="30" width="414" height="788"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="noDataDetailView"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="remoteJobDetailContainer"/>
                                 <constraints>
                                     <constraint firstItem="ASQ-aN-hjb" firstAttribute="leading" secondItem="gAn-Pl-HLi" secondAttribute="leading" id="1hY-Ne-NhK"/>
                                     <constraint firstItem="ASQ-aN-hjb" firstAttribute="top" secondItem="Tvr-jK-NrO" secondAttribute="bottom" id="6n4-kV-hG4"/>
@@ -196,7 +207,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RQq-q6-sYK"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <accessibility key="accessibilityConfiguration" identifier="RemoteJobDetailView"/>
+                        <accessibility key="accessibilityConfiguration" identifier="remoteJobDetailView"/>
                         <constraints>
                             <constraint firstItem="RQq-q6-sYK" firstAttribute="bottom" secondItem="gAn-Pl-HLi" secondAttribute="bottom" id="3oo-wv-ikb"/>
                             <constraint firstItem="gAn-Pl-HLi" firstAttribute="top" secondItem="RQq-q6-sYK" secondAttribute="top" id="8yg-KB-rc7"/>

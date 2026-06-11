@@ -16,7 +16,7 @@ protocol RemoteJobRepositoryProtocol {
 final class RemoteJobRepository: RemoteJobRepositoryProtocol {
     private let remoteJobAPI: RemoteJobServiceProtocol
     
-    init(remoteJobAPI: RemoteJobServiceProtocol = RemoteJobService()) {
+    init(remoteJobAPI: RemoteJobServiceProtocol = RemoteJobService(bundle: .main)) {
         self.remoteJobAPI = remoteJobAPI
     }
 

@@ -27,28 +27,28 @@ class RemoteJobCell: UITableViewCell {
     
     func configureRow(with remoteJobInfo: RemoteJobModel) {
         if let jobPosition = remoteJobInfo.position {
-            let jobHeading = "Job :"
+            let jobHeading = "Job:"
             let position = jobHeading + " " + jobPosition
             
             self.positionLabel?.attributedText = position.customisedTextColorBlack(headingLabel: jobHeading, compositeString: position)
         }
         
         if let companyTitle = remoteJobInfo.company {
-            let companyHeading = "Company :"
+            let companyHeading = "Company:"
             let company = companyHeading + " " + companyTitle
             
             self.companyLabel?.attributedText = company.customisedTextColorBlack(headingLabel: companyHeading, compositeString: company)
         }
         
         if let locationTitle = remoteJobInfo.location {
-            let locationHeading = "Location :"
+            let locationHeading = "Location:"
             let location = locationHeading + " " + locationTitle
             
             self.locationLabel?.attributedText = location.customisedTextColorBlack(headingLabel: locationHeading, compositeString: location)
         }
         
         if let salaryMin = remoteJobInfo.salaryMin {
-            let salaryHeading = "Salary :"
+            let salaryHeading = "Salary:"
             var salary = salaryHeading + " " + String.rupeeSymbol + salaryMin
             if let salaryMax = remoteJobInfo.salaryMax {
                 salary = salary + " to " + String.rupeeSymbol + salaryMax

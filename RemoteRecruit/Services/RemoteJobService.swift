@@ -13,7 +13,14 @@ protocol RemoteJobServiceProtocol {
     func fetchRemoteJobDetail(jobId: Int) throws -> AnyPublisher<[RemoteJobDetailModel], Error>
 }
 
-final class RemoteJobService: RemoteJobServiceProtocol {    
+final class RemoteJobService: RemoteJobServiceProtocol {
+    private let bundle: Bundle
+
+    // Default to .main so your app code doesn't change
+    init(bundle: Bundle = .main) {
+        self.bundle = bundle
+    }
+    
     func fetchRemoteJobs() throws -> AnyPublisher<[RemoteJobModel], Error> {
         let fileURL = Bundle.main.url(forResource: "RemoteJobs", withExtension: "json")
 

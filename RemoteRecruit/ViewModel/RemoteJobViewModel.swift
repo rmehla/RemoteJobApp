@@ -10,7 +10,7 @@ import Combine
 
 final class RemoteJobViewModel: ObservableObject {
     // Input
-    private let fetchJobUseCase: FetchJobUseCase
+    private let fetchJobUseCase: FetchJobUseCaseProtocol
 
     private var remoteJobs: [RemoteJobModel] = []
     @Published var filteredJobs: [RemoteJobModel] = []
@@ -19,7 +19,7 @@ final class RemoteJobViewModel: ObservableObject {
     @Published var showError = false
     private var cancellables = Set<AnyCancellable>()
     
-    init(fetchJobUseCase: FetchJobUseCase) {
+    init(fetchJobUseCase: FetchJobUseCaseProtocol) {
         self.fetchJobUseCase = fetchJobUseCase
     }
     

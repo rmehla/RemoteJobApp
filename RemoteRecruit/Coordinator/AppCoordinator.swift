@@ -25,6 +25,16 @@ final class AppCoordinator: Coordinator {
     }
 
     func start() {
+        let arguments = ProcessInfo.processInfo.arguments
+        
+        if arguments.contains("UITest_JobDetail") {
+            showJobDetail(jobId: 109)
+            return
+        }
+        showRemoteJobs()
+    }
+    
+    func showRemoteJobs() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let jobsVC = storyboard.instantiateViewController(
             identifier: "RemoteJobsVC"
@@ -44,11 +54,10 @@ final class AppCoordinator: Coordinator {
         let detailVC = storyboard.instantiateViewController(
             identifier: "RemoteJobDetailVC"
         ) as! RemoteJobDetailViewController
-
-        detailVC.jobId = jobId
-        detailVC.remoteJobDetailViewModel =
-            container.makeRemoteJobDetailViewModel()
         
+        detailVC.jobId = jobId
+        detailVC.remoteJobDetailViewModel = container.makeRemoteJobDetailViewModel()
+    
         navigationController.pushViewController(
             detailVC,
             animated: true

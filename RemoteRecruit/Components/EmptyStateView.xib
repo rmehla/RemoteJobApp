@@ -35,6 +35,7 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <accessibility key="accessibilityConfiguration" identifier="emptyStateView"/>
             <constraints>
                 <constraint firstItem="AWQ-kk-UdY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5Tc-sK-AXW"/>
                 <constraint firstItem="Cgw-PL-l8B" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Zf7-Bm-Vex"/>

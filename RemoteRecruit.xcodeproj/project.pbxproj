@@ -14,9 +14,18 @@
 		B3908F562FD6D8B50036E9A0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3908F552FD6D8B40036E9A0 /* NetworkError.swift */; };
 		B3908F5E2FD6D8C60036E9A0 /* RemoteJobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3908F5D2FD6D8C60036E9A0 /* RemoteJobService.swift */; };
 		B3908F632FD6D8E90036E9A0 /* FetchJobUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3908F622FD6D8E90036E9A0 /* FetchJobUseCase.swift */; };
+		B3908F7A2FD6EFA30036E9A0 /* RemoteJobsViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3908F792FD6EFA30036E9A0 /* RemoteJobsViewControllerUITests.swift */; };
+		B3908F7F2FD6F0770036E9A0 /* RemoteJobDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3908F7E2FD6F0770036E9A0 /* RemoteJobDetailViewControllerTests.swift */; };
+		B3908F8D2FD6F50B0036E9A0 /* RemoteJobs.json in Resources */ = {isa = PBXBuildFile; fileRef = B385FD002FD40FB300138A68 /* RemoteJobs.json */; };
+		B3908F912FD6F5150036E9A0 /* RemoteJobs.json in Resources */ = {isa = PBXBuildFile; fileRef = B385FD002FD40FB300138A68 /* RemoteJobs.json */; };
+		B3908F952FD6F5190036E9A0 /* RemoteJobDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = B385FD0E2FD41E9500138A68 /* RemoteJobDetails.json */; };
+		B3908F962FD6F51A0036E9A0 /* RemoteJobDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = B385FD0E2FD41E9500138A68 /* RemoteJobDetails.json */; };
 		B393B0D12FD5C919008316A7 /* EmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B393B0D02FD5C919008316A7 /* EmptyStateView.xib */; };
 		B393B0D92FD5D8BA008316A7 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B0D82FD5D8BA008316A7 /* ContentLoader.swift */; };
 		B393B0DE2FD5D8CD008316A7 /* ContentLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B393B0DD2FD5D8CD008316A7 /* ContentLoader.xib */; };
+		B3975C6B2FD71F6F00792250 /* MockFetchJobUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3975C6A2FD71F6F00792250 /* MockFetchJobUseCase.swift */; };
+		B3975C732FD7205100792250 /* RemoteJobViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3975C722FD7205100792250 /* RemoteJobViewModelTests.swift */; };
+		B3975C7C2FD72A2500792250 /* RemoteJobDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3975C7B2FD72A2500792250 /* RemoteJobDetailViewModelTests.swift */; };
 		B398A6312FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398A6302FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift */; };
 		B398A6362FD6A00700CA9484 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398A6352FD6A00700CA9484 /* AppContainer.swift */; };
 		B398A63C2FD6A63C00CA9484 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398A63B2FD6A63C00CA9484 /* AppCoordinator.swift */; };
@@ -63,9 +72,14 @@
 		B3908F552FD6D8B40036E9A0 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		B3908F5D2FD6D8C60036E9A0 /* RemoteJobService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobService.swift; sourceTree = "<group>"; };
 		B3908F622FD6D8E90036E9A0 /* FetchJobUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchJobUseCase.swift; sourceTree = "<group>"; };
+		B3908F792FD6EFA30036E9A0 /* RemoteJobsViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobsViewControllerUITests.swift; sourceTree = "<group>"; };
+		B3908F7E2FD6F0770036E9A0 /* RemoteJobDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		B393B0D02FD5C919008316A7 /* EmptyStateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyStateView.xib; sourceTree = "<group>"; };
 		B393B0D82FD5D8BA008316A7 /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
 		B393B0DD2FD5D8CD008316A7 /* ContentLoader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentLoader.xib; sourceTree = "<group>"; };
+		B3975C6A2FD71F6F00792250 /* MockFetchJobUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFetchJobUseCase.swift; sourceTree = "<group>"; };
+		B3975C722FD7205100792250 /* RemoteJobViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteJobViewModelTests.swift; sourceTree = "<group>"; };
+		B3975C7B2FD72A2500792250 /* RemoteJobDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobDetailViewModelTests.swift; sourceTree = "<group>"; };
 		B398A6302FD68F6D00CA9484 /* RemoteJobDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJobDetailViewModel.swift; sourceTree = "<group>"; };
 		B398A6352FD6A00700CA9484 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		B398A63B2FD6A63C00CA9484 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -118,6 +132,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3908F832FD6F07C0036E9A0 /* RemoteJobs */ = {
+			isa = PBXGroup;
+			children = (
+				B3908F792FD6EFA30036E9A0 /* RemoteJobsViewControllerUITests.swift */,
+				B3908F7E2FD6F0770036E9A0 /* RemoteJobDetailViewControllerTests.swift */,
+			);
+			path = RemoteJobs;
+			sourceTree = "<group>";
+		};
+		B3975C692FD71F0E00792250 /* RemoteJobViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3975C722FD7205100792250 /* RemoteJobViewModelTests.swift */,
+				B3975C6A2FD71F6F00792250 /* MockFetchJobUseCase.swift */,
+			);
+			path = RemoteJobViewModel;
+			sourceTree = "<group>";
+		};
+		B3975C7A2FD729D200792250 /* RemoteJobDetailViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3975C7B2FD72A2500792250 /* RemoteJobDetailViewModelTests.swift */,
+			);
+			path = RemoteJobDetailViewModel;
+			sourceTree = "<group>";
+		};
 		B398A63A2FD6A62400CA9484 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +228,8 @@
 		B3CDA1B82FD324BF00354E4F /* RemoteRecruitTests */ = {
 			isa = PBXGroup;
 			children = (
+				B3975C7A2FD729D200792250 /* RemoteJobDetailViewModel */,
+				B3975C692FD71F0E00792250 /* RemoteJobViewModel */,
 				B3CDA1B92FD324BF00354E4F /* RemoteRecruitTests.swift */,
 				B3CDA1BB2FD324BF00354E4F /* Info.plist */,
 			);
@@ -197,6 +239,7 @@
 		B3CDA1C32FD324C000354E4F /* RemoteRecruitUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B3908F832FD6F07C0036E9A0 /* RemoteJobs */,
 				B3CDA1C42FD324C000354E4F /* RemoteRecruitUITests.swift */,
 				B3CDA1C62FD324C000354E4F /* Info.plist */,
 			);
@@ -416,6 +459,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3908F952FD6F5190036E9A0 /* RemoteJobDetails.json in Resources */,
+				B3908F8D2FD6F50B0036E9A0 /* RemoteJobs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +468,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3908F962FD6F51A0036E9A0 /* RemoteJobDetails.json in Resources */,
+				B3908F912FD6F5150036E9A0 /* RemoteJobs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +506,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3975C732FD7205100792250 /* RemoteJobViewModelTests.swift in Sources */,
+				B3975C6B2FD71F6F00792250 /* MockFetchJobUseCase.swift in Sources */,
 				B3CDA1BA2FD324BF00354E4F /* RemoteRecruitTests.swift in Sources */,
+				B3975C7C2FD72A2500792250 /* RemoteJobDetailViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +517,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3908F7A2FD6EFA30036E9A0 /* RemoteJobsViewControllerUITests.swift in Sources */,
+				B3908F7F2FD6F0770036E9A0 /* RemoteJobDetailViewControllerTests.swift in Sources */,
 				B3CDA1C52FD324C000354E4F /* RemoteRecruitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

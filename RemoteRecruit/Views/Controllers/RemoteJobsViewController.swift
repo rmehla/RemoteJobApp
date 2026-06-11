@@ -123,6 +123,8 @@ extension RemoteJobsViewController: UITableViewDataSource, UITableViewDelegate {
 
 extension RemoteJobsViewController: UISearchBarDelegate {
 
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+    }
     func searchBar(_ searchBar: UISearchBar,
                    textDidChange searchText: String) {
         remoteJobModel?.search(text: searchText)

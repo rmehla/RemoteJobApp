@@ -8,7 +8,12 @@
 import Foundation
 import Combine
 
-struct FetchJobUseCase {
+protocol FetchJobUseCaseProtocol {
+    func execute() -> AnyPublisher<[RemoteJobModel], Error>
+    func fetch(jobId: Int) -> AnyPublisher<RemoteJobDetailModel, Error>
+}
+
+struct FetchJobUseCase : FetchJobUseCaseProtocol {
     let repository: RemoteJobRepositoryProtocol
     
     init(repository: RemoteJobRepositoryProtocol) {

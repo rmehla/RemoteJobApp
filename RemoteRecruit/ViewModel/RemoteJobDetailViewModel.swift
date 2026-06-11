@@ -11,7 +11,7 @@ import UIKit
 
 final class RemoteJobDetailViewModel: ObservableObject {
     // Input
-    private let fetchJobUseCase: FetchJobUseCase
+    private let fetchJobUseCase: FetchJobUseCaseProtocol
     @Published private(set) var remoteJobDetail: RemoteJobDetailModel?
 
     @Published private(set) var error: NetworkError?
@@ -35,7 +35,7 @@ final class RemoteJobDetailViewModel: ObservableObject {
         
     var salaryText: NSAttributedString {
         let salaryMin = self.remoteJobDetail?.salaryMin ?? String.empty
-        let salaryHeading = "Salary :"
+        let salaryHeading = "Salary:"
         var salary = salaryHeading + " " + String.rupeeSymbol + salaryMin
 
         let salaryMax = self.remoteJobDetail?.salaryMax ?? String.empty
@@ -77,7 +77,7 @@ final class RemoteJobDetailViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
-    init(fetchJobUseCase: FetchJobUseCase) {
+    init(fetchJobUseCase: FetchJobUseCaseProtocol) {
         self.fetchJobUseCase = fetchJobUseCase
     }
     
@@ -90,7 +90,7 @@ final class RemoteJobDetailViewModel: ObservableObject {
                 switch completion {
                 case .finished :
                     break
-                case .failure(let error):
+                case .failure( _):
                     self.error = NetworkError.unknown
                 }
             } receiveValue: { [weak self] jobInfo in
